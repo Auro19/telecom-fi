@@ -1,0 +1,266 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+.contenedor1{
+  width: 100%;
+  margin: auto;
+}
+
+.menu-fixed{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%
+}
+
+.encabezado{
+	background-color: #DADADA;
+  margin-bottom: 0px;
+}
+
+
+
+@media screen and (min-width: 1100px) {
+  img.logos-izq2{
+    height: 100px;
+  }
+  img.logos-izq{
+    height: 100px;
+    margin-left: 150px;
+  }
+  img.logos-der{
+    height: 100px;
+    margin-right: 150px;
+  }
+
+  img.logos-footer{
+    height: 70px;
+  }
+  .card{
+  height: 400px;
+  }
+
+  .slider .slides li{
+  height: 350px;
+  }
+
+  .panel-cartas{
+  font-size: 15px;
+  border-radius: 7px;
+  background-color: #D6D6D6;
+  }
+  div.cuerpo-profesores-chico{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+  img.logos-izq2{
+    height: 0px;
+  }
+  img.logos-izq{
+    height: 0px;
+  }
+  img.logos-der{
+    height: 0px;
+  }
+
+  img.logos-footer{
+    height: 0px;
+  }
+
+  .card{
+  height: 100%;
+  }
+
+  div.ocultar{
+  display: none;
+  }
+
+  .panel-cartas h3{
+    font-size: 26px;
+    text-align: center;
+  }
+  .panel-cartas{
+    font-size: 12px;
+  }
+
+  div.cuerpo-profesores-grande{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1099px) {
+  div.car_pequeño{
+  display: none;
+  }
+}
+
+nav{
+  background-color: white;
+  border-width: 2px 0px 2px 0px;
+  border-style: solid;
+  border-color: #E00202;
+}
+
+
+nav.nav-center ul {
+    text-align: center;
+}
+
+nav.nav-center ul.despliega {
+    text-align: left;
+}
+
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+
+
+nav ul a{
+  color: black;
+}
+
+nav a{
+  color: black;
+}
+
+.texto-nav {
+  color: black;
+}
+
+footer{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-parte-1{
+  position: relative;
+  width:100%;
+  background-color: #333;
+  padding-top: 30px;
+  margin-bottom: 0px;
+ }
+
+ .footer-parte-2{
+  position: relative;
+  width:100%;
+  background-color: #cd171e;
+  margin-bottom: 0px;
+ }
+
+ a{
+  color: white;
+ }
+
+ li{
+  color: white;
+ }
+
+ .titulo-footer{
+  font-size: 16pt;
+  color: white;
+ }
+
+ .titulo-lab{
+  color: #cd171e;
+  text-align: center;
+  font-size: 30px;
+  vertical-align: middle;
+ }
+
+ ul li.negro{
+  color: black;
+  font-size: 22px;
+ }
+
+
+.despliega-cuerpo{
+  background-color: #F0F0F0;
+}
+
+.mySlides{
+  display: none;
+}
+
+.img-cartas{
+  margin-top: 10px;
+}
+
+.titulo-equipos{
+  text-align: center;
+  font-size: 20px;
+}
+
+.card .card-content{
+  font-size: 16px;
+  padding: 20px;
+}
+
+.slider .slides{
+  background-color: #E9E9E9;
+}
+
+div.titulo-seccion{
+  font-size: 30px;
+  padding: 5px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}
+
+ul.listado-equipos li{
+  color: black;
+}
+
+.nombre-profesores tr td a{
+  color: black;
+  font-size: 18px;
+}
+
+.nombre-profesores tr td p{
+  color: black;
+  font-size: 14px;
+}
+
+.contenido {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
+}
+
+.tabs .tab a{
+  color: black;
+  border-width: 0px 0px 0px 0px;
+  border-style: solid;
+  border-color: #cd171e;
+}
+
+.tabs .tab a.active, .tabs .tab a:hover {
+  color: #cd171e;
+  background-color: white;
+  border-color: #cd171e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background-color: white;
+}
+
+.textoRojo{
+  color: #E00202;
+}
