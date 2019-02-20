@@ -6,11 +6,22 @@
   box-sizing:border-box;
 }
 
+.container2{
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+   grid-column-gap: 50px;
+}
+.li{
+  font-family: 'Tajawal', sans-serif;
+  color:red;
+}
+
 .contenedor1{
   width: 100%;
   margin: auto;
 }
-
 .menu-fixed{
   position: fixed;
   z-index: 1000;
